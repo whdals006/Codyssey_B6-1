@@ -1,0 +1,15 @@
+# SSH private key
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp

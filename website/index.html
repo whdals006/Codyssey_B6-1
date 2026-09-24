@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cloud Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+
+        header {
+            padding: 20px;
+            background: #111827;
+            color: white;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h1,
+        h2 {
+            margin-top: 0;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: #dcfce7;
+            color: #166534;
+            font-weight: bold;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AWS Cloud Web Service</h1>
+        <p>VPC와 EC2로 배포한 웹 서비스</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>서비스 정상 동작</h2>
+
+            <p class="status">ONLINE</p>
+
+            <p>
+                이 페이지는 Amazon EC2 인스턴스의 Nginx 웹 서버에서
+                제공되고 있습니다.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>구성 환경</h2>
+
+            <ul>
+                <li>AWS VPC</li>
+                <li>Public Subnet</li>
+                <li>Internet Gateway</li>
+                <li>Amazon EC2</li>
+                <li>Nginx</li>
+                <li>Security Group</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Health Check</h2>
+
+            <p>
+                <code>/health</code> 경로에서 서비스 상태를 확인할 수 있습니다.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        AWS Cloud Mission - B6-1
+    </footer>
+</body>
+</html>
