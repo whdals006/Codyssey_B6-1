@@ -138,8 +138,11 @@ docs/cleanup-checklist.md
 
 ## 11. IAM 계정 정책
 
-AmazonEC2FullAccess
-AmazonVPCFullAccess
-IAMReadOnlyAccess
-AWSBillingReadOnlyAccess
+- AmazonEC2FullAccess
+
+- AmazonVPCFullAccess
+
+- IAMReadOnlyAccess
+
+- AWSBillingReadOnlyAccess
 
